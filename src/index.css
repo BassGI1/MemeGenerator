@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+  background: linear-gradient(to right,#672280, #A626D2);
+  height: 12.5vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+.troll{
+  height: 6vh;
+  margin: auto 1vw auto 5vw;
+}
+
+.title{
+  font-size: 2.5rem;
+  margin-right: auto;
+}
+
+.right{
+  margin: auto;
+  margin-right: 10vw;
+}
+
+form{
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leftin{
+  margin: auto;
+}
+
+.rightin{
+  margin: auto;
+}
+
+.in{
+  width: 20vw;
+  height: 6vh;
+  text-indent: 1vw;
+  border-radius: 8px;
+}
+
+.button{
+  width: 60vw;
+  height: 12vh;
+  margin: 5vh auto auto auto;
+  background-image: url(./images/buttonbackground.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 2px black;
+  cursor: pointer;
+  display: block;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.image{
+  margin-top: 5vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-height: 47.5vh;
+  overflow: hidden;
+}
+
+.element {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
